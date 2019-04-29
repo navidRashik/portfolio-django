@@ -1,0 +1,26 @@
+git init
+git status
+git add -A
+git commit -m "initial commit"
+
+
+pip3 install virtualenv
+virtualenv env  #creating python virtualenv named env
+source env/bin/activate
+djnago-admin startproject project-name
+python manage.py runserver
+python manage.py startapp blog
+python manage.py migrate
+python manage.py makemigrations
+python manage.py collectstatic
+git remote add origin https://github.com/navidRashik/portfolio-django.git
+git push -u origin master
+
+
+
+postgres username = postgres
+password = 12345
+
+
+
+pip freez > requirements.txt

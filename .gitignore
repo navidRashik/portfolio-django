@@ -6,3 +6,5 @@
 *.log
 *.pot
 *.pyc
+config.bat
+node_modules

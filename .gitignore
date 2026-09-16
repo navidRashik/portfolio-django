@@ -6,3 +6,4 @@
 *.log
 *.pot
 *.pyc
+node_modules

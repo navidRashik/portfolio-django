@@ -7,3 +7,4 @@
 *.pot
 *.pyc
 node_modules
+config.bat
